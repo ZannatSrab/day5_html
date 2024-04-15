@@ -17,13 +17,14 @@ color: gray;
     margin: 50px 0px;
     padding: 20px 0px;
     background-color: rgb(245, 248, 229);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 }
 .intro :hover{
     background-color: rgb(204, 195, 255);
 }
 .intro img{
-    width: 250px;
+    width: 230px;
     height: 300px;
 }
 .about{
@@ -33,9 +34,10 @@ color: gray;
     background-color: rgb(251, 238, 243);
     margin: 50px 0px;
     padding: 20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .about img{
-    width: 390px;
+    width: 400px;
     height: 300px;}
 .about_text{
     width: 500px;
@@ -67,4 +69,5 @@ color: gray;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 7px;
 }
+
 
