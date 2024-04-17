@@ -1,5 +1,7 @@
 body{
-    margin: 40px 100px;
+    margin: 40px 100px; 
+   
+    
 }
 
 
@@ -11,36 +13,39 @@ color: gray;
     color: gray;
 }
 .intro{
+    background-color: rgb(245, 248, 229);
     display: flex ;
     justify-content: space-evenly;
     align-items:center ;
     margin: 50px 0px;
     padding: 20px 0px;
-    background-color: rgb(245, 248, 229);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition-duration: 1s;
 
 }
-.intro :hover{
-    background-color: rgb(204, 195, 255);
+.intro:hover{
+    background-color: rgb(236, 233, 255);
 }
 .intro img{
     width: 230px;
     height: 300px;
 }
 .about{
+    margin: 50px 0px;
+    padding: 20px 40px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color: rgb(251, 238, 243);
-    margin: 50px 0px;
-    padding: 20px 0px;
+    
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition-duration: 1s;
 }
 .about img{
     width: 400px;
     height: 300px;}
 .about_text{
-    width: 500px;
+    width: 280px;
 }
 .about_text p{
     color: gray;
@@ -48,8 +53,10 @@ color: gray;
 .about_text h2{
     font-size: xx-large;
 }
-.about :hover{
-    background-color: rgb(204, 195, 255);}
+.about:hover{
+    background-color: rgb(239, 241, 255);
+}
+
 
 .WhatIDo-section-card{
     display: flex;
@@ -68,6 +75,35 @@ color: gray;
     height: 200px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 7px;
+    transition-duration: 1s;
 }
+.WhatIDo-section-card div:hover{
+    background-color: rgb(205, 205, 205);
+}
+@media only screen and (max-width: 600px){
+    .intro{
+        display: flex;
+        flex-direction: column;
+    }
+  .about{
+        display: flex;
+        flex-direction: column;
+    }
+    body{
+        margin: 10px;
+        
+    }
+    .WhatIDo-section-card{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    body{
+        margin: 10px;
+        
+    }
+}
+
+
 
 
